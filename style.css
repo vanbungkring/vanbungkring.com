@@ -1079,7 +1079,7 @@ nav.main-nav ul li.current-menu-item:hover a {
     background-image: url(images/separator-dash.png);
     height: 1px;
     width: 700px;
-    margin: -1px 0 24px -40px;
+    margin: -1px 0 24px -20px;
 }
 
 #content div#respond p.comment-form-author, #content div#respond p.comment-form-email, #content div#respond p.comment-form-url, #content div#respond p.comment-form-comment, #content div#respond p.form-submit {
