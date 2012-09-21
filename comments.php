@@ -29,7 +29,7 @@ return;
 <?php
 $comments_args = array(
 // change the title of send button
-'title_reply' => '<h4>Leave a comment</h4><div class="comment-form-separator"></div>', 'title_reply_to' => '<h4>Leave a Reply to %s</h4><div class="comment-form-separator"></div>', );
+'title_reply' => '<h4>Leave a comment</h4>', 'title_reply_to' => '<h4>Leave a Reply to %s</h4><div class="comment-form-separator"></div>', );
 ?>
 
 <?php comment_form($comments_args); ?>

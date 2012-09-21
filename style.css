@@ -764,6 +764,7 @@ nav.main-nav ul li.current-menu-item:hover a {
     margin-left: -20px;
     padding: 10px 30px;
     border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
 }
 #content article.entry ul.entry-meta li {
     display: inline;
