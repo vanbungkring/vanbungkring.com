@@ -582,8 +582,8 @@ h3 {
     padding: 8px 0 8px 0;
 }
 h4 {
-    font: normal 1.25em/48px 'Rokkitt', serif;
-    padding: 17px 0 7px 0;
+    font: normal 3em/48px 'Rokkitt', serif;
+    padding: 5px 0 7px 0;
 }
 h5 {
     font: normal 1em/48px 'Rokkitt', serif;
@@ -613,14 +613,13 @@ td {
 
 blockquote, blockquote p {
     font: italic 1em/24px 'Rokkitt', serif;
+    background: #efefef;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-style: normal;
 }
-blockquote:before {
-    content: "“";
-    font-size: 3em;
-    text-indent: -0.7em;
-    margin-top: 0.2em;
-    float: left;
-    opacity: 0.35;
+blockquote p {
+    border: none;
 }
 cite {
     font: bold italic 0.875em/24px 'Rokkitt', serif;
@@ -962,7 +961,7 @@ nav.main-nav ul li.current-menu-item:hover a {
     background-image: url(images/separator-dash.png);
     height: 1px;
     width: 700px;
-    margin: -1px 0 24px -40px;
+    margin: -1px 0 24px -20px;
 }
 
 #content #comments li.comment {
